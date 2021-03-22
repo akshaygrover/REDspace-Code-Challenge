@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,16 @@
 		87FD9B1E260924C100025D21 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87FD9B1D260924C100025D21 /* Preview Assets.xcassets */; };
 		87FD9B29260924C100025D21 /* REDspace_Code_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FD9B28260924C100025D21 /* REDspace_Code_ChallengeTests.swift */; };
 		87FD9B34260924C100025D21 /* REDspace_Code_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FD9B33260924C100025D21 /* REDspace_Code_ChallengeUITests.swift */; };
+		87FD9B462609264700025D21 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 87FD9B452609264700025D21 /* Kingfisher */; };
+		87FD9B602609296D00025D21 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FD9B5F2609296D00025D21 /* Info.swift */; };
+		87FD9B682609299200025D21 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FD9B672609299200025D21 /* Character.swift */; };
+		87FD9B6D260929B300025D21 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FD9B6C260929B300025D21 /* Location.swift */; };
+		87FD9B72260929C300025D21 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FD9B71260929C300025D21 /* Episode.swift */; };
+		87FD9B7826092D0800025D21 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 87FD9B7726092D0800025D21 /* Moya */; };
+		87FD9B8426092D3500025D21 /* Networkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FD9B8326092D3500025D21 /* Networkable.swift */; };
+		87FD9B8926092D6100025D21 /* RickAndMortyAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FD9B8826092D6100025D21 /* RickAndMortyAPI.swift */; };
+		87FD9B8E26092DCB00025D21 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FD9B8D26092DCB00025D21 /* NetworkManager.swift */; };
+		87FD9B9C260931DE00025D21 /* CharacterListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FD9B9B260931DE00025D21 /* CharacterListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +55,14 @@
 		87FD9B2F260924C100025D21 /* REDspace Code ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "REDspace Code ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87FD9B33260924C100025D21 /* REDspace_Code_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REDspace_Code_ChallengeUITests.swift; sourceTree = "<group>"; };
 		87FD9B35260924C100025D21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87FD9B5F2609296D00025D21 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		87FD9B672609299200025D21 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		87FD9B6C260929B300025D21 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		87FD9B71260929C300025D21 /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		87FD9B8326092D3500025D21 /* Networkable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networkable.swift; sourceTree = "<group>"; };
+		87FD9B8826092D6100025D21 /* RickAndMortyAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyAPI.swift; sourceTree = "<group>"; };
+		87FD9B8D26092DCB00025D21 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		87FD9B9B260931DE00025D21 /* CharacterListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87FD9B7826092D0800025D21 /* Moya in Frameworks */,
+				87FD9B462609264700025D21 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,8 +115,10 @@
 		87FD9B15260924C000025D21 /* REDspace Code Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				87FD9B92260930BE00025D21 /* Features */,
+				87FD9B7C26092D1400025D21 /* Networking */,
+				87FD9B5E2609285800025D21 /* Model */,
 				87FD9B16260924C000025D21 /* REDspace_Code_ChallengeApp.swift */,
-				87FD9B18260924C000025D21 /* ContentView.swift */,
 				87FD9B1A260924C100025D21 /* Assets.xcassets */,
 				87FD9B1F260924C100025D21 /* Info.plist */,
 				87FD9B1C260924C100025D21 /* Preview Content */,
@@ -130,6 +152,92 @@
 			path = "REDspace Code ChallengeUITests";
 			sourceTree = "<group>";
 		};
+		87FD9B5E2609285800025D21 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				87FD9B5F2609296D00025D21 /* Info.swift */,
+				87FD9B672609299200025D21 /* Character.swift */,
+				87FD9B6C260929B300025D21 /* Location.swift */,
+				87FD9B71260929C300025D21 /* Episode.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		87FD9B7C26092D1400025D21 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				87FD9B8326092D3500025D21 /* Networkable.swift */,
+				87FD9B8826092D6100025D21 /* RickAndMortyAPI.swift */,
+				87FD9B8D26092DCB00025D21 /* NetworkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		87FD9B92260930BE00025D21 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				87FD9B932609310700025D21 /* Tabbar	 */,
+				87FD9B942609311C00025D21 /* Characters */,
+				87FD9B952609312900025D21 /* Episodes */,
+				87FD9B962609313900025D21 /* Loactions */,
+				87FD9B972609314000025D21 /* Search */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		87FD9B932609310700025D21 /* Tabbar	 */ = {
+			isa = PBXGroup;
+			children = (
+				87FD9B18260924C000025D21 /* ContentView.swift */,
+			);
+			path = "Tabbar\t";
+			sourceTree = "<group>";
+		};
+		87FD9B942609311C00025D21 /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				87FD9B982609317A00025D21 /* List */,
+				87FD9B992609318000025D21 /* Detail */,
+			);
+			path = Characters;
+			sourceTree = "<group>";
+		};
+		87FD9B952609312900025D21 /* Episodes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Episodes;
+			sourceTree = "<group>";
+		};
+		87FD9B962609313900025D21 /* Loactions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Loactions;
+			sourceTree = "<group>";
+		};
+		87FD9B972609314000025D21 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		87FD9B982609317A00025D21 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				87FD9B9B260931DE00025D21 /* CharacterListViewModel.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		87FD9B992609318000025D21 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +254,10 @@
 			dependencies = (
 			);
 			name = "REDspace Code Challenge";
+			packageProductDependencies = (
+				87FD9B452609264700025D21 /* Kingfisher */,
+				87FD9B7726092D0800025D21 /* Moya */,
+			);
 			productName = "REDspace Code Challenge";
 			productReference = 87FD9B13260924C000025D21 /* REDspace Code Challenge.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +329,10 @@
 				Base,
 			);
 			mainGroup = 87FD9B0A260924C000025D21;
+			packageReferences = (
+				87FD9B442609264700025D21 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				87FD9B7626092D0800025D21 /* XCRemoteSwiftPackageReference "Moya" */,
+			);
 			productRefGroup = 87FD9B14260924C000025D21 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +375,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87FD9B8E26092DCB00025D21 /* NetworkManager.swift in Sources */,
+				87FD9B602609296D00025D21 /* Info.swift in Sources */,
+				87FD9B8926092D6100025D21 /* RickAndMortyAPI.swift in Sources */,
+				87FD9B72260929C300025D21 /* Episode.swift in Sources */,
 				87FD9B19260924C000025D21 /* ContentView.swift in Sources */,
+				87FD9B8426092D3500025D21 /* Networkable.swift in Sources */,
+				87FD9B6D260929B300025D21 /* Location.swift in Sources */,
 				87FD9B17260924C000025D21 /* REDspace_Code_ChallengeApp.swift in Sources */,
+				87FD9B9C260931DE00025D21 /* CharacterListViewModel.swift in Sources */,
+				87FD9B682609299200025D21 /* Character.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,6 +704,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		87FD9B442609264700025D21 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.2.1;
+			};
+		};
+		87FD9B7626092D0800025D21 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 14.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		87FD9B452609264700025D21 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 87FD9B442609264700025D21 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		87FD9B7726092D0800025D21 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 87FD9B7626092D0800025D21 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 87FD9B0B260924C000025D21 /* Project object */;
 }
