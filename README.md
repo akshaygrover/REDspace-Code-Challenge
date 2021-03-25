@@ -5,7 +5,7 @@ REDspace iOS Codeing Challenge
 Akshay Grover
 
 ## Description
-A Rick and morty wiki app shows its characters, episodes and locations details using Rick&Morty public API (https://rickandmortyapi.com/documentation/#character-schema ) 
+A Rick and morty wiki app shows its characters, episodes and locations details using Rick&Morty REST API (https://rickandmortyapi.com/documentation/#character-schema ) 
 App support auto scrolling pagination feature as well
 
 ## Installation
