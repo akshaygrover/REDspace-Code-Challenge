@@ -7,8 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		870116BB260D14E200DB1AB2 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 870116BA260D14E200DB1AB2 /* README.md */; };
+		87C8D82E260954CB001E0CDE /* CharacterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C8D82D260954CB001E0CDE /* CharacterDetailView.swift */; };
+		87C8D8332609589E001E0CDE /* CharacterListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C8D8322609589E001E0CDE /* CharacterListRowView.swift */; };
+		87C8D83A26095E91001E0CDE /* EpisodeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C8D83926095E91001E0CDE /* EpisodeDetailView.swift */; };
+		87C8D8422609645F001E0CDE /* EpisodesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87C8D8412609645F001E0CDE /* EpisodesListViewModel.swift */; };
+		87D76D94260A8522003B2D6F /* EpisodesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D76D93260A8522003B2D6F /* EpisodesListView.swift */; };
+		87D76D99260A8580003B2D6F /* EpisodeListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D76D98260A8580003B2D6F /* EpisodeListRowView.swift */; };
+		87D76DA6260A89A5003B2D6F /* LocationsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D76DA5260A89A5003B2D6F /* LocationsListViewModel.swift */; };
+		87D76DAB260A8B03003B2D6F /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D76DAA260A8B03003B2D6F /* LocationDetailView.swift */; };
+		87D76DB0260AAA16003B2D6F /* LocationsListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D76DAF260AAA16003B2D6F /* LocationsListRowView.swift */; };
+		87D76DB5260AAA73003B2D6F /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D76DB4260AAA73003B2D6F /* LocationsListView.swift */; };
 		87FD9B17260924C000025D21 /* REDspace_Code_ChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FD9B16260924C000025D21 /* REDspace_Code_ChallengeApp.swift */; };
-		87FD9B19260924C000025D21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FD9B18260924C000025D21 /* ContentView.swift */; };
+		87FD9B19260924C000025D21 /* CharactersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FD9B18260924C000025D21 /* CharactersListView.swift */; };
 		87FD9B1B260924C100025D21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87FD9B1A260924C100025D21 /* Assets.xcassets */; };
 		87FD9B1E260924C100025D21 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87FD9B1D260924C100025D21 /* Preview Assets.xcassets */; };
 		87FD9B29260924C100025D21 /* REDspace_Code_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FD9B28260924C100025D21 /* REDspace_Code_ChallengeTests.swift */; };
@@ -22,7 +33,8 @@
 		87FD9B8426092D3500025D21 /* Networkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FD9B8326092D3500025D21 /* Networkable.swift */; };
 		87FD9B8926092D6100025D21 /* RickAndMortyAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FD9B8826092D6100025D21 /* RickAndMortyAPI.swift */; };
 		87FD9B8E26092DCB00025D21 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FD9B8D26092DCB00025D21 /* NetworkManager.swift */; };
-		87FD9B9C260931DE00025D21 /* CharacterListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FD9B9B260931DE00025D21 /* CharacterListViewModel.swift */; };
+		87FD9B9C260931DE00025D21 /* CharactersListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FD9B9B260931DE00025D21 /* CharactersListViewModel.swift */; };
+		87FD9BA42609406700025D21 /* TabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FD9BA32609406700025D21 /* TabbarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,9 +55,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		870116BA260D14E200DB1AB2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		87C8D82D260954CB001E0CDE /* CharacterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailView.swift; sourceTree = "<group>"; };
+		87C8D8322609589E001E0CDE /* CharacterListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListRowView.swift; sourceTree = "<group>"; };
+		87C8D83926095E91001E0CDE /* EpisodeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeDetailView.swift; sourceTree = "<group>"; };
+		87C8D8412609645F001E0CDE /* EpisodesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesListViewModel.swift; sourceTree = "<group>"; };
+		87D76D93260A8522003B2D6F /* EpisodesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesListView.swift; sourceTree = "<group>"; };
+		87D76D98260A8580003B2D6F /* EpisodeListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeListRowView.swift; sourceTree = "<group>"; };
+		87D76DA5260A89A5003B2D6F /* LocationsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListViewModel.swift; sourceTree = "<group>"; };
+		87D76DAA260A8B03003B2D6F /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
+		87D76DAF260AAA16003B2D6F /* LocationsListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListRowView.swift; sourceTree = "<group>"; };
+		87D76DB4260AAA73003B2D6F /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
 		87FD9B13260924C000025D21 /* REDspace Code Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "REDspace Code Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87FD9B16260924C000025D21 /* REDspace_Code_ChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REDspace_Code_ChallengeApp.swift; sourceTree = "<group>"; };
-		87FD9B18260924C000025D21 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		87FD9B18260924C000025D21 /* CharactersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersListView.swift; sourceTree = "<group>"; };
 		87FD9B1A260924C100025D21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87FD9B1D260924C100025D21 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		87FD9B1F260924C100025D21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,7 +85,8 @@
 		87FD9B8326092D3500025D21 /* Networkable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networkable.swift; sourceTree = "<group>"; };
 		87FD9B8826092D6100025D21 /* RickAndMortyAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RickAndMortyAPI.swift; sourceTree = "<group>"; };
 		87FD9B8D26092DCB00025D21 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
-		87FD9B9B260931DE00025D21 /* CharacterListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListViewModel.swift; sourceTree = "<group>"; };
+		87FD9B9B260931DE00025D21 /* CharactersListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersListViewModel.swift; sourceTree = "<group>"; };
+		87FD9BA32609406700025D21 /* TabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,9 +116,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		87C8D83726095E63001E0CDE /* List */ = {
+			isa = PBXGroup;
+			children = (
+				87C8D8412609645F001E0CDE /* EpisodesListViewModel.swift */,
+				87D76D93260A8522003B2D6F /* EpisodesListView.swift */,
+				87D76D98260A8580003B2D6F /* EpisodeListRowView.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		87C8D83826095E69001E0CDE /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				87C8D83926095E91001E0CDE /* EpisodeDetailView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		87D76DA3260A8975003B2D6F /* List */ = {
+			isa = PBXGroup;
+			children = (
+				87D76DA5260A89A5003B2D6F /* LocationsListViewModel.swift */,
+				87D76DAF260AAA16003B2D6F /* LocationsListRowView.swift */,
+				87D76DB4260AAA73003B2D6F /* LocationsListView.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		87D76DA4260A897A003B2D6F /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				87D76DAA260A8B03003B2D6F /* LocationDetailView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
 		87FD9B0A260924C000025D21 = {
 			isa = PBXGroup;
 			children = (
+				870116BA260D14E200DB1AB2 /* README.md */,
 				87FD9B15260924C000025D21 /* REDspace Code Challenge */,
 				87FD9B27260924C100025D21 /* REDspace Code ChallengeTests */,
 				87FD9B32260924C100025D21 /* REDspace Code ChallengeUITests */,
@@ -180,7 +241,6 @@
 				87FD9B942609311C00025D21 /* Characters */,
 				87FD9B952609312900025D21 /* Episodes */,
 				87FD9B962609313900025D21 /* Loactions */,
-				87FD9B972609314000025D21 /* Search */,
 			);
 			path = Features;
 			sourceTree = "<group>";
@@ -188,7 +248,7 @@
 		87FD9B932609310700025D21 /* Tabbar	 */ = {
 			isa = PBXGroup;
 			children = (
-				87FD9B18260924C000025D21 /* ContentView.swift */,
+				87FD9BA32609406700025D21 /* TabbarView.swift */,
 			);
 			path = "Tabbar\t";
 			sourceTree = "<group>";
@@ -205,6 +265,8 @@
 		87FD9B952609312900025D21 /* Episodes */ = {
 			isa = PBXGroup;
 			children = (
+				87C8D83726095E63001E0CDE /* List */,
+				87C8D83826095E69001E0CDE /* Detail */,
 			);
 			path = Episodes;
 			sourceTree = "<group>";
@@ -212,21 +274,18 @@
 		87FD9B962609313900025D21 /* Loactions */ = {
 			isa = PBXGroup;
 			children = (
+				87D76DA3260A8975003B2D6F /* List */,
+				87D76DA4260A897A003B2D6F /* Detail */,
 			);
 			path = Loactions;
-			sourceTree = "<group>";
-		};
-		87FD9B972609314000025D21 /* Search */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Search;
 			sourceTree = "<group>";
 		};
 		87FD9B982609317A00025D21 /* List */ = {
 			isa = PBXGroup;
 			children = (
-				87FD9B9B260931DE00025D21 /* CharacterListViewModel.swift */,
+				87FD9B18260924C000025D21 /* CharactersListView.swift */,
+				87FD9B9B260931DE00025D21 /* CharactersListViewModel.swift */,
+				87C8D8322609589E001E0CDE /* CharacterListRowView.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -234,6 +293,7 @@
 		87FD9B992609318000025D21 /* Detail */ = {
 			isa = PBXGroup;
 			children = (
+				87C8D82D260954CB001E0CDE /* CharacterDetailView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -349,6 +409,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				870116BB260D14E200DB1AB2 /* README.md in Resources */,
 				87FD9B1E260924C100025D21 /* Preview Assets.xcassets in Resources */,
 				87FD9B1B260924C100025D21 /* Assets.xcassets in Resources */,
 			);
@@ -378,12 +439,23 @@
 				87FD9B8E26092DCB00025D21 /* NetworkManager.swift in Sources */,
 				87FD9B602609296D00025D21 /* Info.swift in Sources */,
 				87FD9B8926092D6100025D21 /* RickAndMortyAPI.swift in Sources */,
+				87C8D83A26095E91001E0CDE /* EpisodeDetailView.swift in Sources */,
+				87D76D94260A8522003B2D6F /* EpisodesListView.swift in Sources */,
+				87D76DA6260A89A5003B2D6F /* LocationsListViewModel.swift in Sources */,
+				87D76D99260A8580003B2D6F /* EpisodeListRowView.swift in Sources */,
+				87C8D82E260954CB001E0CDE /* CharacterDetailView.swift in Sources */,
+				87D76DB0260AAA16003B2D6F /* LocationsListRowView.swift in Sources */,
 				87FD9B72260929C300025D21 /* Episode.swift in Sources */,
-				87FD9B19260924C000025D21 /* ContentView.swift in Sources */,
+				87FD9B19260924C000025D21 /* CharactersListView.swift in Sources */,
+				87FD9BA42609406700025D21 /* TabbarView.swift in Sources */,
+				87C8D8332609589E001E0CDE /* CharacterListRowView.swift in Sources */,
 				87FD9B8426092D3500025D21 /* Networkable.swift in Sources */,
 				87FD9B6D260929B300025D21 /* Location.swift in Sources */,
+				87D76DB5260AAA73003B2D6F /* LocationsListView.swift in Sources */,
 				87FD9B17260924C000025D21 /* REDspace_Code_ChallengeApp.swift in Sources */,
-				87FD9B9C260931DE00025D21 /* CharacterListViewModel.swift in Sources */,
+				87C8D8422609645F001E0CDE /* EpisodesListViewModel.swift in Sources */,
+				87D76DAB260A8B03003B2D6F /* LocationDetailView.swift in Sources */,
+				87FD9B9C260931DE00025D21 /* CharactersListViewModel.swift in Sources */,
 				87FD9B682609299200025D21 /* Character.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
