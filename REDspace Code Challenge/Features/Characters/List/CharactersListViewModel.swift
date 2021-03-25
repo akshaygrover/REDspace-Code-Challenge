@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-class CharacterListViewModel: ObservableObject {
+class CharactersListViewModel: ObservableObject {
     @Published var characters: [Character] = [Character]()
     
     let manager: NetworkManager
@@ -36,7 +36,6 @@ class CharacterListViewModel: ObservableObject {
     }
     
     func fetchCharacters() {
-        let fetchedPage = currentPage
         manager.getCharacter(name: "", page: currentPage) { [weak self] characters, info in
             self?.characters.append(contentsOf: characters)
             self?.totalPage = info.pages
