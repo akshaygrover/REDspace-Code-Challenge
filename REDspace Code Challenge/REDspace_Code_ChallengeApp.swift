@@ -11,7 +11,7 @@ import SwiftUI
 struct REDspace_Code_ChallengeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabbarView()
         }
     }
 }
